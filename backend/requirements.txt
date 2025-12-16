@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+websockets
+pandas
+numpy
+statsmodels
+scipy
+sqlalchemy
+python-multipart

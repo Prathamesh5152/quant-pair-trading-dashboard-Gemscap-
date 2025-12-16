@@ -1,0 +1,10 @@
+{
+  "name": "gemscap",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"cd backend && uvicorn main:app --reload\" \"cd frontend/my-app && npm run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
